@@ -10,7 +10,7 @@ export const CompHome = ({handleSubmit, BD, setBD, captcha1, captcha2, SE }) => 
         <div className='login-container animate__animated animate__fadeIn'>
 
           <div className='login'>
-          <img className='login__logo' src='../assets/icons/perfil.jpg'/>
+          <img className='login__logo' src='./assets/icons/perfil.jpg'/>
 
           <h1>Iniciar sesión</h1>
             <form 

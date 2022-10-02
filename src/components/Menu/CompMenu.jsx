@@ -1,7 +1,7 @@
 import React, {  useMemo, useState } from 'react'
 
 export const CompMenu = () => {
-  const [Int, setInt] = useState(0)
+  const [Int, setInt] = useState(1)
   const [Log, setLog] = useState('')
   const [Mensaje, setMensaje] = useState('')
 

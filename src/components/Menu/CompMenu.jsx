@@ -17,7 +17,7 @@ export const CompMenu = () => {
        if( Log == NumeroAleatorio ){
 
         setMensaje(`¡Adivinaste en  ${ Int } Intentos!`)
-
+        location.reload();
 
          }else if( Log > NumeroAleatorio){
 

@@ -30,7 +30,7 @@ export const CompMenu = () => {
          }
 
          //
-         if( Log > '10' || Log < '0' ){
+         if( Log > 10 || Log < 0 ){
           setMensaje('Estas fuera de intervalo!')
          }
          
